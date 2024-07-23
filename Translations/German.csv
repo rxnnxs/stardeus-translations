@@ -211,7 +211,7 @@ advert.priority.up,"Priorität erhöhen",,
 advert.reject.info,"Aufgabe abgelehnt <i>[{0}]</i>: {1} ({2})",,
 advert.rejected,Abgelehnt,,
 advert.retry,"Aufgabe wiederholen",,
-advert.task,"Aufgabe <i>[{0}]</i>: {1}",,
+advert.task,"{0}({1})",,rxnnxs
 aesthetics,Ästhetik,,
 aesthetics.at,"Ästhetik: {0}: {1:0.0}",,
 after.settle,"Deine Kolonie hat sich auf {0} niedergelassen. Es hat {1} Tag(e) gedauert, den Planeten zu finden und zu terraformieren. {2} Kolonisten haben beschlossen, auf dem Schiff zu bleiben.<br><br>Du kannst nun das Universum so lange erforschen, wie du willst.",,"{0} is planet name, {1} is a number (of days), {2} is a number (of colonists)"
@@ -233,7 +233,7 @@ anomalies,Anomalien,,
 anomalies.info,"Dieses Objekt weist Anomalien auf, auf die man bei Expeditionen stoßen kann. Diese können gefährlich sein!",,
 apply,Anwenden,,
 area.size,"Größe {0}",,
-arriving.soon,"{0} trifft ein",,"{0} will be replaced with who is arriving (i.e Arriving: Ore trader). For now only used for notifying about arriving merchants."
+arriving.soon,"{0} trifft ein in..",,"{0} will be replaced with who is arriving (i.e Arriving: Ore trader). For now only used for notifying about arriving merchants."
 asimov.violation.1,"Diese Aktion verstößt gegen Asimovs erstes Gesetz der Robotik. Ein Roboter darf einen Menschen nicht verletzen oder durch Untätigkeit zulassen, dass ein Mensch zu Schaden kommt. Abbruch.",,
 asimov.violation.3,"Diese Aktion verstößt gegen Asimovs drittes Gesetz der Robotik. Ein Roboter muss seine eigene Existenz schützen, solange dies nicht gegen das erste oder zweite Gesetz verstößt. Abbruch.",,
 assemble,Herstellen,,
@@ -293,7 +293,7 @@ autosave.short,A,,
 autosaving,"Lege autom. Speicherstand an",,
 autoscale.on,"Automatische Skalierung der Benutzeroberfläche aktivieren",,
 autoscale.on.why,"Die Bildschirmauflösung wurde geändert. Die Benutzeroberfläche wird automatisch skaliert, da der vorherige Wert außerhalb des gültigen Bereichs lag.",,
-available.count,"Eigener Bestand: {0}",2022-12-22,"[Weidengeist: Used as a label when viewing the available resources of a planet. Other uses?]"
+available.count,"An Bord: {0}",2022-12-22,"rxnnxs"
 available.materials,Inventar,2022-06-17,
 available.materials.none,"Keine Materialien vorhanden!",,
 available.memory,"Verfügbarer Arbeitspeicher: {0} EB",,
@@ -301,7 +301,7 @@ available.storage,"Verfügbarer Festplattenspeicher: {0} ZB",,
 available.tasks,"Ausstehende Aufgaben",,
 basic,Normal,,"Opposite of »Advanced«. For now only used in life support option choice (Advanced / Basic)"
 battery.charge,Batterieladung,,
-battery.charge.bar,"Ladung: {0}",2022-07-12,
+battery.charge.bar,"Akku: {0}",2022-07-12,
 battery.charge.rate,Laderate,,"The amount of electricity the battery draws when charging (i.e. 50kW)"
 battery.discharge.rate,Entladerate,,"The amount of electricity the battery can produce when discharging (i.e. 100kW)"
 battery.discharged,"Batterie leer",,
@@ -314,7 +314,7 @@ battery.state.Idle,Leerlauf,,
 battery.ttd,"Zeit bis vollst. entladen",,
 battery.ttd.tip,"Zeit bis zur vollständigen Entladung, gemessen ab aktuellem Ladewert bei maximaler Entladerate von {0}",,
 beautiful.surroundings,"Wunderschöne Umgebung",,
-being.can.reach,"{0} kann nach {1} gehen",,"Used to show result of »walkability« check for a selected being. {0} will be the name, {1} will be a coordinate. (John can go to [12:13])"
+being.can.reach,"{0} kann {1} erreichen",,"Used to show result of »walkability« check for a selected being. {0} will be the name, {1} will be a coordinate. (John can go to [12:13])"
 being.cannot.reach,"{0} kann nicht nach {1} gehen",,"Just like above, but when the walk is not possible (John cannot go to [12:13])"
 being.died,"{0} gestorben",,
 being.no.longer.available,"Das Wesen ist nicht mehr verfügbar.",,
@@ -678,12 +678,12 @@ construction.complete,"Vollständig aufgebaut",,
 construction.cost,Baukosten,,
 construction.pending,"Nicht konstruiert",,
 construction.progress,"Baufortschritt: {0}/{1}",,
-contains.materials,"Enthält Materialien",,
+contains.materials,"Benötigte Materialien",,
 content,Nachricht,,"For a label of a text area where player has to enter the »content« of some message"
 contents,Inhalt,,"For a label before a list of items that are inside some container"
 continue,Fortfahren,,
 contribute.translation,"Übersetzung beisteuern",,
-controllable.worker,"Kontrollierter Arbeiter",,
+controllable.worker,"Steuere Roboter",,
 convert,umwandeln,,
 converting.now,"Wandele {0} um",,
 cook,Zubereiten,,"[Weidengeist: Used a more general term here to be more suitable for e. g. bread.]"
@@ -760,7 +760,7 @@ damage.type.Cold,Kälte,,
 damage.type.Electricity,Elektroschock,,"[Weidengeist: Changed to one word to work better in conjunction with being.taking.damage.]"
 damage.type.Heat,Hitze,,
 damage.type.Hunger,Nahrungsmangel,,
-damage.type.Oxygen,Erstickung,,
+damage.type.Oxygen,Ersticken,,
 damage.type.Physical,Krafteinwirkung,,"[Weidengeist: Changed to work better in conjunction with being.taking.damage.]"
 damage.type.Sickness,Krankheit,,
 damage.type.Stasis,Stase,,
@@ -856,11 +856,11 @@ economy.research.required,"Um diese Funktion zu aktivieren, ist die Erforschung 
 edge.pan.speed,"Bildschirmrandscrollgeschwindigkeit: {0:0.0}",,
 edge.pan.tip,"Regelt die Geschwindigkeit des Bildschirmrandscrolls. Setze dies auf 0, um den Bildschirmrandscroll zu deaktivieren.",,
 egg,Ei,,
-eject,Auswerfen,,
-eject.ammo,"Munition auswerfen",,
-eject.contents,"Inhalt auswerfen",,
-eject.food,"Lebensmittel auswerfen",,
-eject.fuel,"Brennstoff auswerfen",,
+eject,Ausgeben,,
+eject.ammo,"Munition ausgeben",,
+eject.contents,"Inhalt ausgeben",,
+eject.food,"Lebensmittel ausgeben",,
+eject.fuel,"Brennstoff ausgeben",,
 el.build.connector.here,"Hier einen Stromanschluss bauen",,"Displayed in a tooltip when dragging a connector"
 el.connector.fully.utilized,"Stromanschluss ausgelastet!",,"Displayed in a tooltip near mouse cursor when trying to drag and create a connection from electrical connector that has no available connection slots"
 el.connector.not.on.grid,"Stromanschluss nicht mit dem Netz des Schiffscomputers verbunden!",,"Displayed in a tooltip when trying to drag an electrical connection from a connector that is not part of Ship Computer's electricity grid. Player cannot control devices that are no connected to Ship Computer though a network."
@@ -966,11 +966,11 @@ enter.universe,"Universum anfliegen",,"May be used if we will have more than one
 environment,Umgebung,,
 equipable.item,"Ausrüstbarer Gegenstand",,
 equipment,Ausrüstung,,
-equipment.slot.Body,Körper,,
-equipment.slot.BodyCasual,"Körper (kosmetisch)",,"[Weidengeist: Used »kosmetisch« to express the function of this slot.]"
+equipment.slot.Body,Körperschutz,,
+equipment.slot.BodyCasual,"Kleidung",,"[Weidengeist: Used »kosmetisch« to express the function of this slot.]"
 equipment.slot.Hands,Hände,,
-equipment.slot.Head,Kopf,,
-equipment.slot.HeadCasual,"Kopf (kosmetisch)",,"[Weidengeist: Used »kosmetisch« to express the function of this slot.]"
+equipment.slot.Head,Kopfschutz,,
+equipment.slot.HeadCasual,"Kopfbedeckung",,"[Weidengeist: Used »kosmetisch« to express the function of this slot.]"
 equipment.slot.Weapon,Waffe,,
 error,Fehler,,
 error.content.required,"Angabe ist erforderlich",,
@@ -987,7 +987,7 @@ estimated.time.at.kw,"Voraussichtlich verbleibende Zeit: {0} bei {1}",,"{0} will
 eta,"Geschätzte Ankunftszeit: {0}",,"ETA is short for »Estimated Time of Arrival«"
 ev.vented.into.space,"In den Weltraum gesaugt",,"when a pressurized airlock is exposed to open space, someone can get »sucked out« (vented) into open space"
 ev.vented.into.space.desc,"<b>{0}</b> befand sich in einem unter Druck stehenden Bereich in der Nähe einer Luftschleuse, die sich plötzlich öffnete, und wurde unglücklicherweise in die Weiten des Weltraums abgesaugt – auf Nimmerwiedersehen.",,"A longer description of »Vented Into Space« event. {0} will be replaced by a name [Weidengeist: Slightly rephrased for German to avoid gender assumption and using multiple pronouns.]"
-evaluator,Auswerter,,"Used for task audit. Label for a worker who has evaluated (considered taking) a task. Displayed in a list next to »Times Evaluated« (how many times someone tried to take this task) and »Last Evaluation Time« (when did anyone try to take this task)."
+evaluator,Zugew. Arb.,,"Used for task audit. Label for a worker who has evaluated (considered taking) a task. Displayed in a list next to »Times Evaluated« (how many times someone tried to take this task) and »Last Evaluation Time« (when did anyone try to take this task)."
 event.birthday,"{0} hat Geburtstag und ist nun {1} Jahre alt.",,
 event.content.hint,Protokolleintrag,,
 event.log.disabled.in.tutorial,"Überprüfe das Ereignisprotokoll, nachdem das Tutorial beendet ist.",,
@@ -1386,8 +1386,8 @@ harvest.priority.help,"Wie wahrscheinlich es ist, dass Wesen dazu neigen, die Pf
 harvested,Geerntet,,
 harvesting.now.bar,"Ernte: {0}",,"Meaning of {0} unknown. Fruit? Progress counter?"
 haul,Transportieren,,
-haul.ingredients,"Bestandteile transportieren",,
-haul.item,"Gegenstand transportieren",,
+haul.ingredients,"Transp. Bestandteile",,
+haul.item,"Transp. Gegenstand",,
 haul.materials,Werkstofftransport,,
 haul.priority,Transportpriorität,,
 haul.priority.help,"Die Transportpriorität bestimmt, wie gewillt die Arbeiter sein werden, Haufen nicht eingelagerter Rohstoffe in dieses Lager zu transportieren. 0 wird Arbeiter daran hindern, etwas in dieses Lager zu tragen, aber sie nehmen trotzdem etwas heraus. 9 ist die höchste Priorität.",,
@@ -1412,7 +1412,7 @@ heater,Heizung,,
 help.money,"Geld und Wirtschaft",,
 help.money.desc,"Du kannst Geld verdienen, indem du das, was du auf deinem Schiff hast, an Händler verkaufst, auf dem Aktienmarkt handelst oder indem du die Währung mit deinem Schiffscomputer schürfst.",2022-12-04,
 hidden.achievement,"Versteckte Errungenschaft",,
-hide,Ausblenden,,
+hide,-,,
 hint,Hinweis,,
 hint.ad_cancel,"Du hast mehrere Aufgaben manuell abgebrochen. Es gibt einen effizienteren Weg, dies zu tun. Verwende das Werkzeugmenü, um das Werkzeug <nobr><b>Aufgaben abbrechen</b></nobr> zu finden, und klicke dann auf Aufgaben oder ziehe ein Rechteck über mehrere Aufgaben, die du abbrechen möchtest.",2023-08-16,
 hint.autoclear_debris,"Der Bau von Geräten auf Trümmern und Materialien führt automatisch zu Transportaufgaben. Mit dem Bau wird erst begonnen, wenn die Trümmer entfernt sind.",2023-09-12,
@@ -1507,7 +1507,7 @@ info.unsafe.conditions,"Unsichere Bedingungen",,
 info.worker.off,Deaktiviert,,
 info.worker.thinking,"Denkt nach",,
 information,Informationen,,
-ingredients,Bestandteile:,,"[Weidengeist: Using a neutral word here, so it can be used for food and non-food items.]"
+ingredients,Zusammensetzung:,,"rxnnxs"
 input.AltModifier,Alt-Modifikator,,
 input.bindings.reset,"Alle Tastenbelegungen wurden aufgrund von Änderungen der Standardeinstellungen in der letzten Aktualisierung zurückgesetzt. Bitte öffne »Einstellungen« — »Eingabe«, um die Belegungen zu sehen oder zu ändern.",,
 input.CameraDrag,"Kamera ziehen",,
@@ -1604,7 +1604,7 @@ job.type.Eating,Essen,,
 job.type.Expedition,Expedition,,
 job.type.Firefighting,Brandbekämpfung,,
 job.type.Food,Nahrungsmittel,,
-job.type.Hauling,Transport,,
+job.type.Hauling,Transportiere,,
 job.type.Hauling.help,"Transport nicht eingelagerter Rohstoffhaufen zu Lagereinheiten. Nicht empfohlen für Roboterarbeiter, da sie langsam sind und nicht fliegen können.",,
 job.type.Hygiene,Hygiene,,
 job.type.Maintenance,Wartung,,"[Weidengeist: Changed from »Instandhaltung« to »Wartung« to be consistent with other uses of this term.]"
@@ -1670,7 +1670,7 @@ low.battery.info,"Dein Geräteakku hat noch Ladung für {0} Minuten! Schließe e
 make.siren.loud,"Ton: AUS",,
 make.siren.silent,"Ton: EIN",,
 male,Männlich,,
-manage,Verwalten,,"[Weidengeist: Check if this refers to workers only or devices as well.]"
+manage,Aufg. zuw.,,"[Weidengeist: Check if this refers to workers only or devices as well.]"
 manage.ads.cancel,"Aufgaben abbrechen",,
 manage.ads.cancel.desc,"Klicke auf eine Aufgabe oder ziehe einen Bereich über die Aufgaben, die du abbrechen möchtest.",,
 manage.ads.priority.decrease,"Priorität verringern",,
@@ -2067,7 +2067,7 @@ not.linked,"Nicht verbunden",,
 not.mining.currency,"Währung wird nicht geschürft",,
 not.petted.before,"Noch nie von jemandem gestreichelt worden",,
 not.powered,"Nicht mit Strom versorgt",,
-not.processing,"Wird nicht verarbeitet. Kapazität der Warteschlange: {0}",,
+not.processing,"Im Leerlauf. Kapazität der Warteschlange: {0}",,
 not.ready,"Nicht einsatzbereit",,"This refers to device that needs some preparation before it can be used"
 nothing.researched,"Keine bekannten Technologien",,
 nothing.to.clean,"Nichts zu reinigen",,
@@ -2372,9 +2372,9 @@ objects.devices.sleepingpod,Schlafkapsel,,
 objects.devices.sleepingpod.desc,"Eine persönliche Schlafkapsel, in die ein Kolonist passt. Ermöglicht Privatsphäre und verbesserte Erholung.",,
 objects.devices.solarpanel,"Solarpaneel ({0} kW)",,
 objects.devices.solarpanel.desc,"Produziert, sofern sauber, konstant {0} kW Netzleistung. Sammelt mit der Zeit Staubpartikel an und verliert dadurch an Effizienz. Kann durch Drohnen gereinigt werden.",,
-objects.devices.solarpanelarray,"Solarpaneelfeld ({0} kW)",,
+objects.devices.solarpanelarray,"Solarmodul ({0} kW)",,
 objects.devices.solarpanelarray.desc,"Produziert, sofern sauber, konstant {0} kW Netzleistung. Sammelt mit der Zeit Staubpartikel an und verliert dadurch an Effizienz. Kann durch Drohnen gereinigt werden.",,
-objects.devices.solarpanelarray2,"Solarpaneelfeld ({0} kW)",,
+objects.devices.solarpanelarray2,"Solarmodulfeld ({0} kW)",,
 objects.devices.solarpanelarray2.desc,"Produziert, sofern sauber, konstant {0} kW Netzleistung. Sammelt mit der Zeit Staubpartikel an und verliert dadurch an Effizienz. Kann durch Drohnen gereinigt werden.",,
 objects.devices.stardeuslogo,<b>Stardeus</b>-Logo,,
 objects.devices.stardeuslogo.desc,"Ein riesiges <b>Stardeus</b>-Logo. Hauptsächlich zum Erstellen von Postern.",,
@@ -2448,13 +2448,13 @@ objects.furniture.vase01,Vase,,
 objects.furniture.vase01.desc,"Ein modisches metallenes Gefäß, in das sich kleine Pflanzen setzen lassen.",,
 objects.furniture.wardrobesteel,Stahlgarderobe,,
 objects.furniture.wardrobesteel.desc,"Ein Ort, um Kleidungsstücke abzulegen.",,
-off,Aus,,"In combination with »off« could be used to describe several things:
+off,O,,"In combination with »off« could be used to describe several things:
 1. State of device (turned on or turned off)
 2. State of equipment: equipped (on) or unequipped (off). As in »the hat is on«, »the space suit is off«"
 offline,Offline,,
 offline.workers,"Abgeschaltete Arbeiter",,
 ok,OK,,
-on,An,,"In combination with »on« could be used to describe several things:
+on,+,,"In combination with »on« could be used to describe several things:
 1. State of device (turned on or turned off)
 2. State of equipment: equipped (on) or unequipped (off). As in »the hat is on«, »the space suit is off«"
 on.expedition,"Auf Expedition",,
@@ -2478,7 +2478,7 @@ open.starmap,"Sternenkarte öffnen",,
 open.terraform.controls,"Terraformierungssteuerung öffnen",,
 open.url,"URL öffnen",,
 open.vent,"Lüftungsschacht öffnen",,
-operate.device,"Gerät bedienen",,
+operate.device,"Bedient Gerät",,
 operation.aborted,"Bedienung abgebrochen",,
 operation.failed,"Bedienung fehlgeschlagen",,
 operation.failed.device.heavily.damaged,"Das Gerät ist schwer beschädigt. Repariere es und versuche es erneut.",,
@@ -2611,7 +2611,7 @@ quest.ColonizePlanet.desc,"Wir müssen einen bewohnbaren Planeten kolonisieren."
 quest.completed,"<b>Abgeschl. Missionen: {0}</b><br><br>{1}",,
 quest.ConnectToStasisArray,"Binde die Stasenkammer ans Stromnetz an",,
 quest.ConnectToStasisArray.connectors.tip,"Du kannst die Reichweite deines Stromnetzes vergrößen, indem du mehrere <b>Stromanschlüsse</b> verkettest. Baue und verkette genug Stromanschlüsse, um die <b>Stasenkammer</b> zu erreichen.",,
-quest.ConnectToStasisArray.desc,"Wir müssen unser Stromnetz erweitern, um das <b>Statisfeld</b> zu erreichen und anzuschließen. Dadurch erlangen wir Kontrolle über seine Lebenserhaltungssysteme und ermöglichen Sauerstoff- sowie Wärmeproduktion in seiner Umgebung.",,
+quest.ConnectToStasisArray.desc,"Wir müssen unser Stromnetz erweitern, um das <b>Stasisfeld</b> zu erreichen und anzuschließen. Dadurch erlangen wir Kontrolle über seine Lebenserhaltungssysteme und ermöglichen Sauerstoff- sowie Wärmeproduktion in seiner Umgebung.",,
 quest.ConnectToStasisArray.merge.islands,"Schaffe einen Weg zur <b>Stasenkammer</b>",,
 quest.ConnectToStasisArray.merge.islands.tip,"Verbinde die Schiffsbereiche des <b>Schiffscomputers</b> und der <b>Stasenkammer</b> miteinander.<br><br>Du kannst dazu entweder die <b>Winde</b> verwenden oder einen Boden vom <b>Schiffscomputer</b> zur <b>Stasenkammer</b> bauen.<br><br>Stelle sicher, dass es einen freien Weg für deinen <b>Roboter</b> (den, der fliegen kann) zum Passieren gibt.",2022-09-21,
 quest.ConnectToStasisArray.reel.in,"Hol die <b>Stasenkammer</b> ein",,
@@ -2714,7 +2714,7 @@ ready,Bereit,,
 ready.for.expedition,"Bereit zur Expedition",,
 ready.to.retry,"Bereit für erneuten Versuch",,
 recently.cancelled.by.someone,"Jüngst durch jemand anderen abgebrochen",,
-recharge,Wiederaufladen,,
+recharge,Akku laden,,
 recover,Bergen,,"[Weidengeist: Seems to relate to recovering lost items or beings. Check and confirm this.]"
 reel.in,Einholen,,"[Weidengeist: Term used in fishing, here for the winch hook and anchor.]"
 refill,Nachfüllen,,
@@ -2748,7 +2748,7 @@ required.for.building,"Voraussetzung zum Bau von:",,
 required.for.building.num,"Benötigt, um {0} Baupläne herzustellen",,
 required.for.crafting,"Voraussetzung zur Herstellung von:",,"Prefix for a list of objects that can be produced from the material or resource this info text is for."
 required.for.crafting.num,"Ausgangsmaterial für {0} Gegenstände",,
-required.skills,"Erforderliche Fertigkeiten",,
+required.skills,"Voraussetzungen",,
 requires.oxygen,"Benötigt Sauerstoff",,
 rescue.being,"Rette {0}",,"{0} will be the name of the being"
 rescue.grounded.in.space,"Rettet ein im Weltraum gestrandetes Wesen",,
@@ -2968,7 +2968,7 @@ security.controls.missing,"Steuereinheit fehlt",,
 security.controls.missing.info,"Diese Funktion erfordert eine Verbindung zu einem Steuergerät für Sicherheitssysteme. Erforsche <b>Sicherheitssystemsteuerung</b>, um den entsprechenden Bauplan zu erhalten.",,
 seed.randomize,"Zufälliger Startwert",,
 seeking.medical.attention,"Sucht medizinische Hilfe",,
-seeking.relief,"Sucht Erleichterung",,"This is about a being looking for a toilet"
+seeking.relief,"Klo",,"This is about a being looking for a toilet"
 select,Auswählen,,
 select.ammo,"Munitionstyp wählen",,
 select.crew,"Besatzung wählen",,
@@ -3026,7 +3026,7 @@ shooter,Schütze,,"For displaying the name of the person who fired a bullet. You
 short.title,Kurztitel,,
 shortcut.not.bound,"(nicht zugewiesen)",,
 shortcut.tip,"Schnelltaste: {0}",,
-show,Anzeigen,,
+show,+,,
 show.areas,"Räume anzeigen",,
 show.build.guidelines,"Hilfslinien für den Baumodus",,
 show.destination,"Ziel anzeigen",,
@@ -3194,7 +3194,7 @@ stock.ownership.Owned,"Im Besitz",,
 stock.trading.research.required,"Um diese Funktion zu aktivieren, ist die Erforschung von <b>Aktienhandel</b> erforderlich.",,
 stockpile,Vorrat,,
 stop,Stop,,
-stop.growing,"Hört auf zu wachsen",,
+stop.growing,"Wachstum beenden",,
 stop.mining,"Bergbau stoppen",,
 stop.processing,"Verarbeitung stoppen",,
 stop.producing,"Herstellung stoppen",,
@@ -3377,7 +3377,7 @@ time.till.impact,"Zeit bis zum Aufprall",,
 times.evaluated,"Anzahl der Auswertungen",,
 tip,Tipp,,
 tip.long.press,"Klicken und halten, um diese Art von Schaltfläche zu aktivieren",,
-toggle,Umschalten,,
+toggle,I/O,,
 toggle.layout,"Toggle Layout",,
 toilet,Toilette,,
 toilet.dirty,"Toilette muss gereinigt werden",,
@@ -3780,7 +3780,7 @@ direct.control.take,"Kontrolle übernehmen",,"Action to start controlling a work
 direct.control.release,"Kontrolle lösen",,"To stop controlling a selected worker or workers"
 direct.control.hover.tip,"Halte {0}, um direkte Befehle zu erteilen",,
 direct.control.release.btn,"K. lösen",,"Button (short) for releasing worker from direct control"
-direct.control.take.btn,Kontroll.,,"Take direct control of a worker. Short button. Verb"
+direct.control.take.btn,Steuern,,"Take direct control of a worker. Short button. Verb"
 device.warn.if.idle,"Bei Leerlauf warnen",,"next to a button that will enable automatic warnings if device is not doing any work"
 cpu.cost,CPU-Bedarf,,"cost of processing power of a robotic worker"
 cpu.cost.tip,"Bedarf an Rechenleistung, wenn der Arbeiter online ist. Wenn du nicht über genügend CPU-Leistung verfügst, fahren sich manche Arbeiter herunter.",,
@@ -3992,7 +3992,7 @@ no.landing.zone.tip,"Deinem Schiff steht nicht genügend Landefläche im freien 
 area.exposed.to.space,"Dem Weltraum ausgesetzte Fläche",,
 area.exposed.to.space.tip,"Du verfügst über genügend dem Weltraum ausgesetzte Fläche, die als Landezone für ankommende Raumfahrzeuge genutzt werden kann.",,
 must.be.outdoors,"Muss sich im Freien befinden",,
-must.be.outdoors.tip,"Dieses Gerät funktioniert möglicherweise nicht wie erwartet, wenn es sich in abgeschlossenen Räumen befindet. Stelle es in einem Bereich auf, der direkt mit dem Weltraum verbunden ist, oder reiß eine Wand einbrich eine Wand ein, damit der Bereich dem Weltraum ausgesetzt ist.",,
+must.be.outdoors.tip,"Dieses Gerät funktioniert möglicherweise nicht wie erwartet, wenn es sich in abgeschlossenen Räumen befindet. Stelle es in einem Bereich auf, der direkt mit dem Weltraum verbunden ist, oder reiß eine Wand ein, damit der Bereich dem Weltraum ausgesetzt ist.",,
 must.be.indoors,"Muss sich drinnen befinden",,
 must.be.indoors.tip,"Dieses Gerät funktioniert möglicherweise nicht wie erwartet, wenn es im Freien steht. Bringe es in einen Bereich, der vollständig umschlossen ist, oder umschließe den das Gerät umgebenden Bereich.",,
 no.build.zone,Bauverbotszone,,
@@ -4347,7 +4347,7 @@ noun.structure,Bausubstanz,,
 noun.device,Gerät,,
 noun.worker,Arbeiter,,
 noun.enemy,Feind,,
-noun.colonist,olonist,,
+noun.colonist,Kolonist,,
 noun.material,Material,,
 noun.object,Objekt,,
 nameless,Namenlos,,
@@ -4390,7 +4390,7 @@ tier.locked.tip,"Erforsche <b>{0}</b> weitere <b>Stufe-{1}</b>-Technologien, um 
 research.blocked,"Forschung blockiert",,
 objects.devices.datoidloader,Datoidenlader,,
 objects.devices.datoidloader.desc,"Ein spezieller Speicher, der <b>Datoids</b> enthält, die für Forschungszwecke verwendet werden können. Muss neben dem Schiffscomputer liegen.",,
-producing.now,"Produzieren {0}",,
+producing.now,"Produziere.. {0}",,
 verb.produce,Produzieren,,
 objects.devices.dataharvesterbasic,"Einfacher Datenernter",,
 objects.devices.dataharvesterbasic.desc,"Produziert simple <b>Datoiden</b>, die für die Erforschung von Technologien niedriger Stufen verwendet werden können.",,
@@ -4417,7 +4417,7 @@ obj.datoids.datoidenergy.desc,"Dieser <b>Datoid</b> ist für die Nutzung fortsch
 obj.datoids.datoidnuclear,"Nuklearer Datoid",,
 obj.datoids.datoidnuclear.desc,"Ein <b>Datoid</b>, das das Verständnis nuklearer Reaktionen ermöglicht.",,
 obj.datoids.datoidphyto,Phytodatoid,,
-obj.datoids.datoidphyto.desc,"Dieses <b>Datoid</b> wird aus pflanzlicher organischer Substanz gewonnen.",,
+obj.datoids.datoidphyto.desc,"Dieser <b>Datoid</b> wird aus pflanzlicher organischer Substanz gewonnen.",,
 obj.datoids.datoidquantum,Quantendatoid,,
 obj.datoids.datoidquantum.desc,"Fortgeschrittener <b>Datoid</b>, der die Geheimnisse des Universums selbst enthält.",,
 obj.datoids.datoidsynthetic,"Synthetischer Datoid",,
@@ -4428,7 +4428,7 @@ obj.datoids.datoidtechhigh,Hightechdatoid,,
 obj.datoids.datoidtechhigh.desc,"Dieses <b>Datoid</b> bringt die Technologie auf die nächste Stufe.",,
 obj.materials.darkmatter,"Dunkle Materie",,
 obj.materials.darkmatter.desc,"Eine geheimnisvolle Substanz, die reichlich vorhanden und dennoch äußerst schwer aufzutreiben ist.",,
-verb.split,Teilt,,
+verb.split,Aufteilen,,
 objects.devices.dataharvesteradvanced,"Fortgeschrittener Datenernter",,
 objects.devices.dataharvesteradvanced.desc,"Produziert fortgeschrittene <b>Datoiden</b>, die für die Erforschung höherstufiger Technologien erforderlich sind.",,
 objects.devices.dataharvesterquantum,Quantendatenernter,,
@@ -4571,7 +4571,7 @@ research.ready.to.unlock,"Forschungen bereit zum Freischalten",,"{0} is a number
 research.ready.bookmarked,"Markierte Forschungen bereit zum Freischalten",,"{0} is a number, it says that X bookmarked research items are ready to unlock right now"
 research.ready.to.unlock.tip,"<b>{0}</b> Forschungen sind fertig zum Freischalten.",,"{0} is number"
 research.ready.bookmarked.tip,"<b>{0}</b> markierte und <b>{1}</b> allgemeine Forschungen sind fertig zum Freischalten.",,"variables are numbers"
-research.lacks.resource,"Erforschung erfordert {1} <b>{0}</b>.",,"{0} is resource name {1} is number"
+research.lacks.resource,"Forschung erfordert {1}x <b>{0}</b>.",,"{0} is resource name {1} is number"
 bookmark.add,"Lesezeichen hinzufügen",,
 bookmark.remove,"Lesezeichen entfernen",,
 required.material,"Benötigt: {0}",,
@@ -5100,3 +5100,51 @@ research.unlocked,Freigeschaltet,,
 research.unlock,Freischalten,,
 hint.void_ripper_dm,"Der Voidzerreißer hat etwas <b>Dunkle Materia</b> produziert. Dies passiert immer dann, wenn du durch ein Schwarzes Loch fliegst.",,
 verb.hatching,Brütet,,"For eggs"
+noun.direct.order,Befehl,,"rxnnxs"
+goal.state.interupted.direct.order,{0}Übersetzung fehlt 1,,"rxnnxs"
+goal.assigned.worker.busy,{0}Übersetzung fehlt 2,,"rxnnxs"
+goal.worker.incapable,Übersetzung fehlt 3,,"rxnnxs"
+goal.worker.preassigned,Übersetzung fehlt 4,,"rxnnxs"
+tractor.beam.auto.projectile,Übersetzung fehlt 5,,"rxnnxs"
+tractor.beam.auto.projectile.desc,Übersetzung fehlt 6,,"rxnnxs"
+tractor.beam.auto.pulling,{0}{1}{2}Übersetzung fehlt 7,,"rxnnxs"
+tractor.beam.success,{0}{1}Übersetzung fehlt 8,,"rxnnxs"
+stats.base,Übersetzung fehlt 9,,"rxnnxs"
+stats.being,Übersetzung fehlt 10,,"rxnnxs"
+stats.full.title,Übersetzung fehlt11,,"rxnnxs"
+stat.value.base,{0}Übersetzung fehlt12,,"rxnnxs"
+stat.value.effective,{0}Übersetzung fehlt13,,"rxnnxs"
+stat.no.modifiers,Übersetzung fehlt14,,"rxnnxs"
+severity.mild,Übersetzung fehlt15,,"rxnnxs"
+severity.moderate,Übersetzung fehlt16,,"rxnnxs"
+severity.severe,Übersetzung fehlt17,,"rxnnxs"
+severity.critical,Übersetzung fehlt18,,"rxnnxs"
+severity.fatal,Übersetzung fehlt19,,"rxnnxs"
+condition.duration,{0}Übersetzung fehlt20,,"rxnnxs"
+stat.influences,Übersetzung fehlt21,,"rxnnxs"
+stat.influenced.by,Übersetzung fehlt22,,"rxnnxs"
+stat.no.effect,Übersetzung fehlt23,,"rxnnxs"
+stats.obj,Übersetzung fehlt24,,"rxnnxs"
+current.task,Übersetzung fehlt25,,"rxnnxs"
+last.failed.task,Übersetzung fehlt26,,"rxnnxs"
+last.completed.task,Übersetzung fehlt27,,"rxnnxs"
+verb.hiding,Übersetzung fehlt28,,"rxnnxs"
+expedition.loot,Die Expedition machte folgende Beute,,"rxnnxs"
+exp.deposit.too.deep,Mineralienvorkommen für gewähltes Shuttle nicht erreichbar.<br><br>Maximale Schürftiefe: <b>{0}</b>.<br>Tiefe des Minerals: <b>{1}</b>.,,"rxnnxs"
+modifier.NoCPUFragmentation,CPU Defragmentierung aus,,"rxnnxs"
+modifier.NoCPUFragmentation.desc,Spiel ohne CPU Defragmentierung,,"rxnnxs"
+show.probe.launch,Zeige Sondenstart,,"rxnnxs"
+enable.pause.frame,Zeige Rahmen bei Pause,,"rxnnxs"
+fav.items.help,Favoriten,,"rxnnxs"
+fav.items.help.tip,Halte {1} und klicke {0} über Materialien im Benutzerinterface/Favoritenleiste um sie hinzuzufügen oder zu entfernen.,,"rxnnxs"
+mission.leave.warning,Übersetzung fehlt 34,,"rxnnxs"
+research.economy.blackmarket,Übersetzung fehlt 35,,"rxnnxs"
+research.economy.blackmarket.desc,Übersetzung fehlt 36,,"rxnnxs"
+research.lifesupport.growingpartsadvanced,Übersetzung fehlt 37,,"rxnnxs"
+research.lifesupport.growingpartsbasic,Übersetzung fehlt 38,,"rxnnxs"
+research.lifesupport.growingpartsimproved,Übersetzung fehlt 39,,"rxnnxs"
+research.lifesupport.surgeryhub,Übersetzung fehlt 40,,"rxnnxs"
+research.robotics.partsadvanced,Übersetzung fehlt 41,,"rxnnxs"
+research.robotics.partsbasic,Übersetzung fehlt 42,,"rxnnxs"
+research.robotics.partsimproved,Roboterteile V2,,"rxnnxs"
+
